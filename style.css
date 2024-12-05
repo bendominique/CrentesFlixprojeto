@@ -1,0 +1,65 @@
+body{
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Nunito", sans-serif
+}
+
+header{
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(0, 238, 255)
+}
+
+.calling{
+    background: rgb(122, 221, 228);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 25px;
+
+}
+
+img{
+    height: 200px;
+}
+
+.video-category{
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+p{
+    font-size: 20px
+}
+
+h2{
+    font-size: 20px;
+    display: flex;
+}
+
+.video-category img{
+    opacity: 0.5;
+}
+
+.video-category img:hover {
+    opacity: 1.0;
+    border: 1px solid peru;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+.category h2 {
+    color: rgb(0, 238, 255)
+}
